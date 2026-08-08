@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.table{
+    width:600px;
+    border-collapse:seperate;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:15px;
+    text-align:left;
+    background-color:white;
+    min-width:400px;
+    margin:100px;
+
+}
+.table thead tr{
+    background-color:dodgerblue;
+    color:white;
+    text-transform:uppercase;
+    font: weight 700px;
+    letter-spacing: spacing 0.5px;
+
+
+}
+.table th,td{
+    padding:12px 15px solid red;
+    border-bottom:1px solid teal;
+}
+.table th{
+    position: sticky;
+    top:0;
+    background-color: seagreen;
+}
+.table tbody tr:nth-of-type(even){
+    background-color:papayawhip;
+
+}
+.table tbody tr:hover{
+    background-color:grey;
+    color:white;
+    cursor:pointer;
+    transition: background-color 0.2s ease;
+
+}

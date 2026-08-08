@@ -1,0 +1,10 @@
+Coding note 
+Link states`and how they are arranfed in order of styling
+link-visited-hover-focus-active
+anchor element-apply link to a webpage
+a webpage is divided into three structual regions
+header
+main
+footer
+href= connect to this
+src=Import this right here

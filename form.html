@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <span>visoft</span>
+      <nav align="center">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="form.html" target="_blank">form</a>
+        <a href="table.html">Table</a>
+        <a href="league.html">League</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <h1>Student Registration form</h1>
+    <form  method="post">
+         
+      <div>
+        <label for="fn">First name</label>
+        <input type="text" name="first name" placeholder="e.g Musa" id="fn" required/>
+      </div>
+      <div>
+        <label for="ln">Last name</label>
+        <input type="text" name="Last name" placeholder="e.g Ali" id="ln" />
+      </div>
+      <div>
+        <label for="on">Other name</label>
+        <input type="text" name="Other name" placeholder="e.g Harun" id="on" />
+      </div>
+      <div>
+        <label for="ae">Age</label>
+        <input
+          type="number"
+          name="Age"
+          placeholder="e.g 20"
+          id="ae"
+          max="50"
+          min="18"
+        />
+      </div>
+      <div>
+        <label for="el">email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="e.g abdullahi@mail.com"
+          id="el"
+        />
+      </div>
+      <div>
+        <label for="pd">Password</label>
+        <input
+          type="password"
+          name="Password"
+          placeholder="e.g 123webq"
+          id="pd"
+        />
+      </div>
+      <div>
+        <label for="tl">Telephone</label>
+        <input
+          type="tel"
+          name="Telephone"
+          placeholder="e.g 081000000"
+          id="tl"
+        />
+      </div>
+      <div>
+        <label for="gr">Gender</label>
+        <input type="radio" name="Gender" id="gr" />male
+        <input type="radio" name="Gender" />Female
+      </div>
+      <div>
+        <label for="DB">DOB</label>
+        <input type="date" name="DOB" />
+      </div>
+      <div>
+        <label for="wk">Week</label>
+        <input type="week" name="Week" />
+      </div>
+      <div>
+        <label for="mh">Month</label>
+        <input type="month" name="Month" />
+      </div>
+      <div>
+        <label for="te">Time</label>
+        <input type="time" name="Time" />
+      </div>
+      <div>
+        <label for="re">Range</label>
+        <input type="range" name="Range" />
+      </div>
+      <div>
+        <label for="cr">Color</label>
+        <input type="color" name="Color" />
+      </div>
+      <div>
+        <label for="pn">State of Origin</label>
+        <select>
+          <option value="kogi">kogi</option>
+          <option value="FCT">FCT</option>
+          <option value="Sokoto">Sokoto</option>
+          <option value="Oyo">Oyo</option>
+          <option value="plateau">plateau</option>
+          <option value="Rivers">Rivers</option>
+          <option value="Taraba">Taraba</option>
+          <option value="Yobe">Yobe</option>
+          <option value="Abia">Abia</option>
+          <option value="Adamawa">Adamawa</option>
+        </select>
+      </div>
+      <div>
+        <label for="UC">Upload CV</label>
+        <input type="file">
+      </div>
+      <div>
+        <label for="fk">Feedback</label>
+        <textarea name="Feedback" id="" cols="40" rows="15"></textarea>
+      </div>
+      <label for="hy">Hobby</label>
+      <input type="checkbox" />Football <input type="checkbox" />Baskeball
+      <input type="checkbox" />Tennis <input type="checkbox" />Badmiton
+      <input type="checkbox" />Polo
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+      
+    </form>
+    <style></style>
+  </body>
+</html>
