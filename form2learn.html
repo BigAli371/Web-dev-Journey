@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <form>
+        <header>
+            <h1>Hotel Feedback Form</h1>
+            <p>Thank you for staying with us. please provide feedback on your recent stay:</p>
+        
+        </header>
+        <fieldset>
+            
+        <legend>Personal Information</legend>
+        <label for="name">Name(required):</label>
+        <input type="text" id="name" name="name" placeholder="e.g John Doe" required>
+        <label for="email">Email(required):</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        <label for="age">Age(optional):</label>
+        <input type="number" id="age" name="age">
+        </fieldset>
+<fieldset>
+<legend>Was this your first time at our hotel?</legend>
+<input type="radio" id="yes" name="first-time" value="yes">
+ <label for="yes">Yes</label>
+        
+         <input type="radio" id="no" name="first-time" value="no">
+        <label for="no">No</label>
+       
+</fieldset>
+<fieldset>
+<legend>Why did you choose our hotel?(check all that apply)</legend>
+<input type="checkbox" id="Social Media" name="Social Media" value="Social Media">
+<label for="Social Media">Social Media ads</label>
+<input type="checkbox" id="Personal Recommendation" name="Personal Recommendation" value="Personal Recommendation">
+<label for="Personal Recommendation">Personal Recommendation</label>
+<input type="checkbox" id="Location" name="Location" value="Location">
+<label for="Location">Location</label>
+<input type="checkbox" id="Reputation" name="Reputation" value="Reputation">
+<label for="Reputation">Reputation</label>
+<input type="checkbox" id="Price" name="Price" value="Price">
+<label for="Price">Price</label>
+</fieldset>
+<fieldset>
+<legend>Ratings</legend>
+ <label for="rating">How was the service?</label>
+<select id="rating" name="service-rating"  >
+     <option value="poor">Poor</option>
+       <option value="satisfactory">Satisfactory</option>
+        <option value="good">Good</option>
+        <option value="very-good">Very Good</option>
+        
+     <option value="excellent">Excellent</option>
+  
+   
+    
+  
+   
+</select>
+<label for="how was the food">How was the food?</label>
+<select id="how was the food" name="food-rating" min="poor" max="excellent">
+    <option value="poor">Poor</option>
+    <option value="satisfactory">Satisfactory</option> 
+    <option value="good">Good</option>
+    <option value="very-good">Very Good</option>
+    <option value="excellent">Excellent</option>
+
+</select>
+</fieldset>
+<div>
+<label for="comments">other Comments:</label>
+<textarea id="comments" name="comments" ></textarea>
+<button type="submit">Submit</button>
+</div>
+
+
+
+
+
+
+        
+        </main>
+        
+    </form>
+    
+</body>
+</html>
